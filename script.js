@@ -202,6 +202,7 @@ function atividade7() {
     }
 }
 // atividade7()
+
 function atividade8() {
 
 
@@ -219,6 +220,21 @@ function atividade8() {
     console.log("Multiplicação dos valores:", numeroA * numeroB);
 }
 // atividade8()
+
+function atividade9() {
+
+
+    let valor1 = 20;
+    let valor2 = 4;
+
+
+    if (valor1 > valor2) {
+        console.log(valor1 + ", " + valor2);
+    } else {
+        console.log(valor2 + ", " + valor1);
+    }
+}
+//atividade9()
 
 
 
