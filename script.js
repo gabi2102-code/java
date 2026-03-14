@@ -82,7 +82,25 @@ function atividade3() {
 }
  //atividade3()
   
- 
+ function atividade4() {
+
+
+    let v1 = Number(prompt("Informe um número inteiro"));
+    let v2 = Number(prompt("Informe outro número inteiro"));
+    let v3 = Number(prompt("Informe mais um número"));
+    let v4 = Number(prompt("Informe o último número"));
+
+
+    let lista = [v1, v2, v3, v4];
+
+
+    lista.sort((x, y) => y - x);
+
+
+    console.log("Valores em ordem decrescente:", lista);
+}
+//atividade4()
+
 
 
 
