@@ -202,6 +202,23 @@ function atividade7() {
     }
 }
 // atividade7()
+function atividade8() {
+
+
+    let numeroA = 18;
+    let numeroB = 14;
+
+
+    console.log("Diferença entre os valores:", numeroA - numeroB);
+
+
+    let calculo = (numeroA * 2) + (numeroB * 3);
+    console.log("Dobro do primeiro + triplo do segundo:", calculo);
+
+
+    console.log("Multiplicação dos valores:", numeroA * numeroB);
+}
+// atividade8()
 
 
 
