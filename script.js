@@ -256,6 +256,38 @@ function atividade10() {
 }
 //atividade10()
 
+function atividade11() {
+
+
+    let funcionario = prompt("Informe o nome:");
+    let salario = Number(prompt("Informe o salário bruto:"));
+
+
+    let porcentagem;
+    let valorDesconto;
+
+
+    if (salario <= 1000) {
+        porcentagem = 0.08;
+    } else if (salario <= 1500) {
+        porcentagem = 0.085;
+    } else {
+        porcentagem = 0.09;
+    }
+
+
+    valorDesconto = salario * porcentagem;
+    let salarioLiquido = salario - valorDesconto;
+
+
+    console.log("Funcionário:", funcionario);
+    console.log("Salário informado:", salario);
+    console.log("Taxa aplicada:", porcentagem * 100 + "%");
+    console.log("Desconto:", valorDesconto);
+    console.log("Salário líquido:", salarioLiquido);
+}
+//atividade11()
+
 
 
 
