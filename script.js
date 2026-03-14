@@ -236,6 +236,25 @@ function atividade9() {
 }
 //atividade9()
 
+function atividade10() {
+
+
+    let funcionario = prompt("Digite o nome do funcionário:");
+    let salarioBruto = Number(prompt("Informe o salário bruto:"));
+    let desconto= 0;
+    let taxa;0
+
+
+    let descontoINSS = salarioBruto * 0.08;
+    let salarioFinal = salarioBruto - descontoINSS;
+
+
+    console.log("Funcionário:", funcionario);
+    console.log("Salário bruto:", salarioBruto);
+    console.log("Desconto do INSS:", descontoINSS);
+    console.log("Salário líquido:", salarioFinal);
+}
+//atividade10()
 
 
 
