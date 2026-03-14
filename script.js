@@ -101,6 +101,24 @@ function atividade3() {
 }
 //atividade4()
 
+function atividade5() {
+
+
+    let valor = Number(prompt("Digite um número inteiro"));
+
+
+    if (valor % 2 === 0) {
+        valor = valor + 1;
+    } else {
+        valor = valor - 1;
+    }
+
+
+    console.log("Número após transformação:", valor);
+}
+//atividade5()
+
+
 
 
 
