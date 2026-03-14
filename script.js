@@ -118,6 +118,19 @@ function atividade5() {
 }
 //atividade5()
 
+function atividade6() {
+
+
+    let caractere = prompt("Digite uma letra:").toLowerCase();
+
+
+    if ("aeiou".includes(caractere)) {
+        console.log("A letra digitada é uma vogal.");
+    } else {
+        console.log("A letra digitada é uma consoante.");
+    }
+}
+//atividade6()
 
 
 
